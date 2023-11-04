@@ -4,8 +4,6 @@ import java.util.Random;
 public class Main {
     public static void main(String[] args) {
         var mySet = giveMeASet();
-        //String[] number = mySet.toArray(new String[mySet.size()]);
-
         String toAdd = "new";
         mySet.add(toAdd);
         if(mySet.contains("new")){
