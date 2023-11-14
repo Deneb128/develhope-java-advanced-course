@@ -13,5 +13,14 @@ public class Main {
             System.out.println(val);
         }
 
+        for(int i = 0; i < 4; i++){
+            studentList.add(new Student("Ginopippo", r.nextInt(13) + 18));
+        }
+
+        System.out.println("--------------------------------------------------");
+
+        for(var val : studentList){
+            System.out.println(val);
+        }
     }
 }
