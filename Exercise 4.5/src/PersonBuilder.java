@@ -1,8 +1,8 @@
 public class PersonBuilder {
     private String firstName;
     private String lastName;
-    private int age;
-    private String address;
+    private int age = 0;
+    private String address = "";
 
     public Person createPerson(){
         return new Person(this.firstName, this.lastName, this.age, this.address);

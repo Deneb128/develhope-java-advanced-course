@@ -1,8 +1,8 @@
 public class Person {
     private String firstName;
     private String lastName;
-    private int age = 0;
-    private String address = "";
+    private int age;
+    private String address;
 
     public Person(String firstName, String lastName, int age, String address) {
         this.firstName = firstName;
